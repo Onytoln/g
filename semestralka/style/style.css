@@ -1,0 +1,38 @@
+.scroll_div {
+    height: 20em;
+    overflow: auto;
+}
+
+.admin_style {
+    color: red;
+}
+
+input[type="text"]:disabled {
+    background: #dddddd;
+}
+
+.disabled_input {
+    background: #dddddd;
+}
+
+.form_input {
+    width: 50%;
+    height: auto;
+}
+
+.center_div {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1300px;
+    }
+    .home {
+        max-width: 1550px;
+    }
+}
+
+

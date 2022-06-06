@@ -1,0 +1,30 @@
+-- PREV --
+cílem je vytvořit aplikaci pro možný nákup jízdenek pro cestování vlakem a jizdní řád těchto vlaků
+
+každý vlak bude mít informace o počtu volných míst
+
+jízdní řád bude obsahovat číslo vlaku, čas odjezdu a od kaď/kam vlak jede
+
+z jízdního řádu bude možné objednat lístek pro danou jízdu
+
+uživatel v roli admin bude moci přidávát nové registry vlaků + nové záznamy do jizdních řádů, případně je odebírat
+
+běžný uživatel může pouze objednávat lístky
+
+aplikace bude podporovat registraci/login a obnovu hesla
+
+-- UPDATED --
+
+registrace konrétních míst byla v plánu, omylem jsem to zapomněl zmínit
+
+registraci konkrétních míst jsem vymyslel tak, že jedna buňka v tabulce s jizdním řádem bude obsahovat všechny místa + zda jsou zabrané v následujícím formátu 1:0;2:1; kde první číslo značí ID sedadla, druhé číslo true/false(1/0) značí zda je místo zabrané, středník odděluje záznam o sedadlu, zároveň bude v další buňce celkový počet zabraných míst, což bude vidět hned z jízdního řádu uživateli
+
+přidám do zadání možnost uživatele spravovat své objednávky (možnost zrušit, možnost upravit sezení), zároveň abych dal aplikaci větší 'smysl', přidám slevu 50% na každou 5. zakoupenou jízdenku
+
+ohledně filtrování, napadlo mně filtrovat jízdní řád podle času odjezdu, místa odjezdu a případně finální destinace
+
+
+
+
+
+
